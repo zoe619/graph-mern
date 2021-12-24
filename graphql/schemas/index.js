@@ -58,3 +58,6 @@ module.exports = buildSchema(`
         query: RootQuery
         mutation: RootMutation
     }`)
+
+// schema names must match resolvers names.
+// schemas are the end points
